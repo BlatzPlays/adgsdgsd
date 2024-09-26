@@ -29,14 +29,6 @@ if (method == "FireServer" and self == MainEvent and tablefind(Flags, args[2])) 
 return
 end
 
--- // Anti Crash
-if (not checkcaller() and getfenv(2).crash) then
--- // Hook the crash function to make it not work
-hookfunction(getfenv(2).crash, function()
-warn("Crash Attempt") 
-end)
-end
-
 -- //
 return __namecall(...)
 end)
