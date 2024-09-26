@@ -231,7 +231,7 @@ if Testing == false then
 	setfpscap(15)
 end
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MsorkyScripts/OpenSourceAntiCheat/main/AntiCheatBypass.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BlatzPlays/adgsdgsd/refs/heads/main/cheat.lua"))()
 getgenv().Executed = true
 
 --// Code --//
